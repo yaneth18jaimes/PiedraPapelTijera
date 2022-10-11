@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styl2e.css">
+<body>
+    <div class="juego">
+        <h1 class="titulo">Juega Contra la Maquina</h1>
+        <p>escoge que respuesta quieres <br>
+        0 = piedra <br> 1 = papel <br> 2 = tijera</p>
+
+        <div onclick="usuario('0');" id="piedra">0</div>
+        <div onclick="usuario('1');" id="papel">1</div>
+        <div onclick="usuario('2');" id="tijera">2</div>
+    </div>
+    <div id="efecto" style="display:none" onclick="quitarEfecto();"> </div>
+    <script src="script.js"></script>
+</body>
+</html>
